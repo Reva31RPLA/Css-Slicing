@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+.cf:before,
+.cf:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+/* clear fixed */
+
+
+body {
+        background-color: rgb(218, 218, 218);
+}
+
+.header {
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.header p {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.lorem {
+    font-family: sans-serif;
+}
+
+.head {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    font-family: serif;
+    padding: 50px;
+    margin: auto;
+}
+
+.main-tance {
+    margin-top: 10px;
+}
+
+.satu {
+    position: relative;
+}
+.satu .gojo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.satu .back {
+    left: 170px;
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+    position: relative;
+}
+
+.satu .a {
+    display: inline;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+}
+
+.dua {
+    margin-top: 5px;
+    position: relative;
+}
+
+.dua p {
+    display: inline;
+    color: black;
+    font-size :15px;
+    font-family: sans-serif;
+    bottom: 25px;
+    position: relative;
+
+}
+
+.one {
+    padding-left: 64px;
+}
+
+h1 {
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+}
+
+
+.tiga img {
+    position: relative;
+    right: 250px;
+    bottom: 400px;
+    width: 500px;
+    height: 400px;
+}
